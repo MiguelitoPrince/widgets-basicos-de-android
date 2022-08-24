@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="25dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Widgets Basicos En Android"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="primer apellid0"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="segundo apellid0"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="numero de carnet/pasaporte"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="estado civil"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="anime favorito"
+        android:inputType="text"
+        /><EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="direccion"
+    android:inputType="text"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e-mail"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="telefono"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="celular"
+        android:inputType="text"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Registrar"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:layout_margin="50dp"/>
+
+
+
+</LinearLayout>
